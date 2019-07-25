@@ -176,7 +176,7 @@ for(let i = 0; i < cells.length; i++)
 				flag = 0;
 			},500);
 			setTimeout(function() {
-				if(count2 == 9) {
+				if(count2 >= 9) {
 					count2 = 0;
 					alert("your score is:" + score);
 					score = 0;
