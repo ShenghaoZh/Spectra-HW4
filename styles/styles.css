@@ -1,0 +1,107 @@
+.q1-container{
+	width: 80%;
+	margin-left: 10%
+}
+.progress-bar-container {
+	width: 100%;
+	height: 30px;
+	background-color: rgb(150,150,150);
+	position: relative;
+	z-index: -1;
+}
+.progress-bar {
+	width: 0%;
+	height: 30px;
+	background-color: rgb(0,110,50);
+	position:absolute;
+	top: 0%;
+	left: 0%;
+	z-index: 0;
+}
+.progress-text {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	z-index: 1;
+	position: absolute;
+	top: 6px;
+}
+.progress-button {
+	margin-top: 5px;
+	position: relative;
+	left: -3px;
+	width: 80px;
+}
+
+
+
+.q2-container {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10px;
+													/*flex见CSS Note*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.search-title {
+	width:100%;
+	text-align: center;
+}
+.input-block{
+	margin-top: 5px;
+}
+.search-result{
+	position:relative;
+	left: 200px;
+}
+.typeahead {
+	width: 300px;
+	height: 23px;
+}
+
+
+
+.q3-container {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.autocomplete {
+	width: 300px;
+	height: 23px;
+}
+
+
+
+.q4-container {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.square-block {
+	width: 40%;
+	margin-left: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.cell {
+													/* padding 来设置宽度,innerHtml+东西，则会引起格子高度变化*/
+	padding-top: 13%;
+	padding-bottom: 13%;
+	margin-top: 3%;
+	border-radius: 10%;
+	background-color: rgb(0,110,50);
+	width: 30%;
+	text-align: center;
+}
+
+.score {
+	width: 100%;
+	text-align: center;
+}
