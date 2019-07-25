@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HW4-JS3</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+
+<body onload="loadPage(); randomM();">
+	<div class="q1-container">
+		<div class="progress-bar-container">
+			<div class="progress-text">"0%"</div>
+			<div class="progress-bar"></div>
+		</div>
+		<button class="progress-button" onclick="loadPage()"><b>Reload</b></button>
+	</div>
+
+	<div class="q2-container">
+		<div class="search-title">Typeahead Search For Star War</div>
+		<div class="input-block">
+			<input class="typeahead" type="text" placeholder="Name" autocomplete="off">
+			<table class="search-result">
+				<tr>
+					<td>Name: </td>
+					<td class="people-name"></td>
+				</tr>
+				<tr>
+					<td>Birth Year: </td>
+					<td class="people-birth"></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<div class="q3-container">
+		<div class="search-title">Autocomplete Search</div>
+		<div class="input-block">
+			<input class="autocomplete" type="text" placeholder="Name" autocomplete="off">
+		</div>
+	</div>
+
+	<div class="q4-container">
+		<div class="score"><h1>Score: 0</h1></div>
+		<div class="square-block">
+			<div class="cell" id="num0">&nbsp</div>
+			<div class="cell" id="num1">&nbsp</div>
+			<div class="cell" id="num2">&nbsp</div>
+			<div class="cell" id="num3">&nbsp</div>
+			<div class="cell" id="num4">&nbsp</div>
+			<div class="cell" id="num5">&nbsp</div>
+			<div class="cell" id="num6">&nbsp</div>
+			<div class="cell" id="num7">&nbsp</div>
+			<div class="cell" id="num8">&nbsp</div>
+		</div>
+	</div>
+
+	<script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script>
+	<script type="text/javascript" src="scripts/scripts.js"></script>
+													<!-- 注意各个script的先后位置 -->
+</body>
+</html>
